@@ -10,7 +10,7 @@ nav{
     height: 80px;
     width: 100%;
     text-decoration: transparent;
-    background: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeupbrushes.jpg?raw=true);
+    background: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/makeupbrushes.jpg);
 
 }
 label.logo{
@@ -148,28 +148,28 @@ a.active,a:hover{
     
     
 }
-.mencard{
+.makeupcard{
     
    margin-top: 200px;
     margin-left: 200px;
 
-    background-image: url(../images/mensbackwallpaper.jpg);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/makeup.jpg);
 }
 
-  .womencard{
+  .hairstylecard{
     margin-top: 200px;
     margin-left: 450px;
-    background-image: url(../images/women.jpg);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/hairstyle1.jpg);
   }
-  .girlcard{
+  .manicurecard{
     margin-top: 200px;
     margin-left: 700px;
-    background-image: url(../images/girlbackgrond.jpg);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/manicure.jpg);
   }
-  .boycard{
+  .pedicurecard{
     margin-top: 200px;
     margin-left: 950px;
-    background-image: url(../images/boybackground.jpg);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/pedicure.jpg);
   }
   .card:hover{
       transform: translateY(-10px);
@@ -209,7 +209,7 @@ a.active,a:hover{
     margin-top: 170px;
     margin-left: 600px;
 
-    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeupbrushes.jpg?raw=true);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/makeupbrushes.jpg);
 }
 .card2:hover{
     transform: translateY(-10px);
