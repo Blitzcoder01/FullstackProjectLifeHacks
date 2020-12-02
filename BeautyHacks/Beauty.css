@@ -10,7 +10,7 @@ nav{
     height: 80px;
     width: 100%;
     text-decoration: transparent;
-    background: url(../images/back_img.jpg);
+    background: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeupbrushes.jpg?raw=true);
 
 }
 label.logo{
@@ -209,7 +209,7 @@ a.active,a:hover{
     margin-top: 170px;
     margin-left: 600px;
 
-    background-image: url(../images/makeupback.jpg);
+    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeupbrushes.jpg?raw=true);
 }
 .card2:hover{
     transform: translateY(-10px);
