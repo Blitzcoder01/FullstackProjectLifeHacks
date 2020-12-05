@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../images/register.jpg");
+   
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     display: flex;
@@ -12,6 +12,7 @@ body{
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/jwellery.jpg);
 }
 .container{
     background-color: white;
@@ -35,7 +36,7 @@ position: relative;
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
-    color: crimson;
+    color: olive;
 }
 
 .form-control1 input{
@@ -96,7 +97,7 @@ position: relative;
  }
  .login{
      text-align: center;
-     color: rgb(14, 16, 133);
+     color: coral;
      margin-top: 15px;
      font-size: 25px;
  }
@@ -108,5 +109,23 @@ position: relative;
  }
  .log a{
      text-decoration: none;
-     color: rgb(202, 29, 188);
+     color:orange;
  }
+  /* styling the button*/
+  a { 
+    padding: 10px 10px; 
+    display: inline-block; 
+    color: #def12a; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    font-size: 1.25em; 
+    overflow: hidden; 
+} 
+
+/*creating animation effect*/
+a:hover { 
+    color: #111; 
+    background: salmon; 
+    box-shadow: 0 0 50px salmon; 
+} 
