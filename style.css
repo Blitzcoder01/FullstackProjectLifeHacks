@@ -185,64 +185,69 @@ a.active,a:hover{
   }
 
 .riya{
-    margin-left: 100px;
-    border-radius: 50%;
-    border:15px solid rgb(241, 37, 156); 
+    margin-left: 60px;
+    border-radius: 10%;
+    
 
 }
 .heading_riya{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: wheat;
-    margin-left: 130px;
-    font-size: 26px;
-    padding-top: 10px;
-    line-height: 40px;
+    margin-left: 70px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
 
 }
 .neha{
-    margin-left: 130px;
-    border-radius: 50%;
-    border:15px solid rgb(67, 67, 248); 
+    margin-left: 100px;
+    border-radius: 10%;
+
    
 
 }
 .heading_neha{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: wheat;
-    margin-left: 160px;
-    font-size: 26px;
-    padding-top: 10px;
-    line-height: 40px;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
 
 }
 
 .stuti{
     margin-left: 130px;
-    border-radius: 50%;
-    border: 15px solid rgb(241, 78, 37);
+    border-radius: 10%;
+    
 }
 .heading_stuti{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: wheat;
-    margin-left: 160px;
-    font-size: 26px;
-    padding-top: 10px;
-    line-height: 40px;
+    margin-left: 130px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
 }
 
 .ritika{
-    margin-left: 130px;
-    border-radius: 50%;
-    border: 15px solid rgb(108, 37, 241);
+    margin-left: 170px;
+    border-radius: 10%;
+   
 }
 .heading_ritika{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: wheat;
-    margin-left: 160px;
-    font-size: 26px;
-    padding-top: 10px;
-    line-height: 40px;
+    margin-left: 180px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
 }
+img:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
 .neon {
     color: #fff;
     text-shadow:
