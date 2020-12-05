@@ -243,7 +243,22 @@ a.active,a:hover{
     padding-top: 20px;
     line-height: 30px;
 }
-img:hover { 
+.riya:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.neha:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.stuti:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.ritika:hover { 
     color: #111; 
     background: goldenrod; 
     box-shadow: 0 0 50px gold; 
