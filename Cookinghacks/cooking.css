@@ -201,7 +201,7 @@ a.active,a:hover{
     margin-top: 170px;
     margin-left: 600px;
 
-    background-image: url(../images/cooking.jpg);
+    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/background.jpg);
 }
 .card2:hover{
     transform: translateY(-10px);
