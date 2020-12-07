@@ -1,17 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
 
-nav{
+     nav{
     
     height: 80px;
     width: 100%;
     text-decoration: transparent;
-
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/back.jpg);
 }
 label.logo{
     color: floralwhite;
@@ -76,10 +69,11 @@ a.active,a:hover{
         position: fixed;
         width: 100%;
         height:100vh;
-        background: lightcoral ;
+        background: transparent ;
         top: 80px;
         left: -100%;
         text-align: center;
+        
         transition: all .5s;
     
     }
@@ -100,91 +94,105 @@ a.active,a:hover{
         left: 0;
 
     }
-}
 
-.container {
-    width: 100%;
-    height: 100vh;
+}
+.banner{
+    width: 1500px;
+    height: 90vh;
     text-align: center;
     color: navy;
-   
-    background-size: cover;
+   max-width: 100%;
+   margin-top: 0rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+    background-size: 100% 100%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/back.jpg);
 
-    
-   
-  }
-  
- 
-  .col{
-      flex-basis: 50%;
-      color: white;
-  }
-  .card{
-    
-      width: 200px;
-      height: 230px;
-      display: inline-block;
-      border-radius: 10px;
-      padding: 15px 25px;
-      box-sizing: border-box;
-      cursor: pointer;
-      margin: 10px 15px;
-      transition: transform 0.5s;
-      background-position: right;
-      background-size: cover;
-      
-  }
-  .card1{
-    background-image: url(images/background.jpg);
-   
-  }
-  .card2{
-    background-image: url(images/makeupback.jpg);
-  }
-  .card3{
-    background-image: url(images/cooking.jpg);
-  }
-  .card4{
-    background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/decor2.jpeg);
-  }
-  .card:hover{
-      transform: translateY(-10px);
-  }
-  h5{
-      color: #fff;
-      text-shadow: 0 0 5px #999;
-  }
-  
-  .card p{
-      text-shadow: 0 0 15px #000;
-      font-size: 8px;
-  }
+}
+h1{
+    color: teal;
+    font-size: 5rem;
+}
+.logoimage{
+    position: absolute;
+      top: 10px;
+      left: 15px;
+      transform: rotate(30deg);
+}
 
-  .row{
-      display:inline-flex;
-      height: 88%;
-      align-items: center;
-      margin-left: 140px;
-      margin-top: 50px;
-  }
-  .about_para{
-      font-size: 29px;
-      margin-left: 70px;
-      margin-right: 500px;
-      color: white;
-      line-height: 40px;
-      text-align: justify;
-  }
-  .treepng{
-    margin-right:100px;
-    margin-left: 800px;
-    margin-top: -925px;
-    padding-top: 10px;
+
+.col{
+    flex-basis: 50%;
+    color: white;
+}
+.card{
+  
+    width: 200px;
+    height: 230px;
     display: inline-block;
-  }
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: right;
+    background-size: cover;
+    
+}
+.card1{
+  background-image: url(images/background.jpg);
+ 
+}
+.card2{
+  background-image: url(images/makeupback.jpg);
+}
+.card3{
+  background-image: url(images/cooking.jpg);
+}
+.card4{
+  background-image: url(https://blitzcoder01.github.io/FullstackProjectLifeHacks/images/decor2.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.row{
+    display:inline-flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.about_para{
+    font-size: 29px;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+}
+.treepng{
+    width:500px;
+     height:800px;
+  padding-left: 10px;
+  
+  padding-top: 40px;
+  display: inline-block;
+}
 
 .riya{
+    width:200px ;
+    height:250px;
     margin-left: 60px;
     border-radius: 10%;
     
@@ -200,6 +208,8 @@ a.active,a:hover{
 
 }
 .neha{
+    width:200px ;
+    height:250px;
     margin-left: 100px;
     border-radius: 10%;
 
@@ -217,28 +227,32 @@ a.active,a:hover{
 }
 
 .stuti{
-    margin-left: 100px;
+    width:200px ;
+    height:250px;
+    margin-left: 130px;
     border-radius: 10%;
     
 }
 .heading_stuti{
     letter-spacing: 2px;
     color: wheat;
-    margin-left: 100px;
+    margin-left: 130px;
     font-size: 24px;
     padding-top: 20px;
     line-height: 30px;
 }
 
 .ritika{
-    margin-left: 100px;
+    width:200px ;
+    height:250px;
+    margin-left: 170px;
     border-radius: 10%;
    
 }
 .heading_ritika{
     letter-spacing: 2px;
     color: wheat;
-    margin-left: 100px;
+    margin-left: 180px;
     font-size: 24px;
     padding-top: 20px;
     line-height: 30px;
@@ -275,20 +289,135 @@ a.active,a:hover{
     0 0 20px gainsboro,
     0 0 20px gainsboro;
   } 
-  .neon2 {
-    color: #fff;
-    text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 10px #fff,
-    0 0 10px rgb(255, 251, 0),
-    0 0 10px rgb(255, 251, 0),
-    0 0 20px rgb(255, 251, 0),
-    0 0 20px rgb(255, 251, 0),
-    0 0 20px rgb(255, 251, 0);
-  } 
 
-//footer
+@media screen and (max-width:300px) {
+    .banner{
+        width: 100%;
+        height: 20%;
+    }
+    
+}
+@media (max-width: 650px) {
+    h1{
+        font-size: 2rem;
+        padding-left: 0%;
+    }   
+}
+
+@media (max-width: 650px){
+    .card{
+  
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        transition: transform 0.5s;
+        background-position: left;
+        background-size: cover;
+        transform: rotate(45deg)
+        
+    }
+
+
+}
+
+@media (max-width: 650px){
+    .about_para{
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 20%;
+        color: white;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .treepng{
+        width:125px;
+        height:400px;
+      padding-left:2%;
+      padding-top: 0%;
+      display: inline-block;
+    }
+
+}
+@media (max-width: 650px){
+
+    .riya{
+        width:80px ;
+        height:100px;
+    margin-left: 0%;
+    border-radius: 10%;
+    
+
+}
+.heading_riya{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 0%;
+    font-size: 13px;
+    padding-top: 0%;
+    line-height: 20px;
+
+}
+.neha{
+    width:80px ;
+    height:100px;
+    margin-left: 5%;
+    border-radius: 10%;
+
+   
+
+}
+.heading_neha{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left:5% ;
+    font-size: 13px;
+    padding-top: 0%;
+    line-height: 20px;
+
+}
+
+.stuti{
+    width:80px ;
+    height:100px;
+    margin-left: 10%;
+    border-radius: 10%;
+
+    
+}
+.heading_stuti{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left:10% ;
+    font-size: 13px;
+    padding-top: 0%;
+    line-height: 20px;
+
+}
+
+.ritika{
+    width:80px ;
+    height:100px;
+    margin-left: 13%;
+    border-radius: 10%;
+   
+}
+.heading_ritika{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left:13% ;
+    font-size: 13px;
+    padding-top: 0%;
+    line-height: 20px;
+}
+}
+
+
+footer
  * { 
         margin: 0;
         padding: 0;
@@ -830,3 +959,11 @@ a.active,a:hover{
                 width: 100%;
             }
         }
+@media screen and (max-width:999px){
+    .container{
+        width: 100%;
+        height: 70%;
+        
+    }
+}
+
