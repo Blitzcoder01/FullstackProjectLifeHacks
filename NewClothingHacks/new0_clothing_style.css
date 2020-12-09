@@ -1,20 +1,9 @@
-html{
-    scroll-behavior: smooth;
-}
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
 nav{
     
     height: 80px;
     width: 100%;
     text-decoration: transparent;
-    background: url(../images/back_img.jpg);
-
+    background-image: url(../images/back_img.jpg);
 }
 label.logo{
     color: floralwhite;
@@ -79,10 +68,11 @@ a.active,a:hover{
         position: fixed;
         width: 100%;
         height:100vh;
-        background: lightcoral ;
+        background: transparent ;
         top: 80px;
         left: -100%;
         text-align: center;
+        
         transition: all .5s;
     
     }
@@ -103,14 +93,28 @@ a.active,a:hover{
         left: 0;
 
     }
+
+}
+.banner{
+    width: 1500px;
+    height: 90vh;
+    text-align: center;
+    color: navy;
+   max-width: 100%;
+   margin-top: 0rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+    background-size: 100% 100%;
+    background-image: url(../images/back_img.jpg);
+
 }
 .glow{
-    font-size: 100px;
+    
     
     letter-spacing: 8px;
-    margin-left: 30px;
-    padding-top: 170px;
-    font-size: 80px;
+    margin-left: 250px;
+    padding-top: 0px;
+    font-size: 6rem;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -127,13 +131,82 @@ a.active,a:hover{
     }
   }
 
-  .homeimage{
-    margin-right:90px;
-    margin-left: 900px;
-    margin-top: -600px;
-    padding-top: 60px;
-  }
+  .card2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: right;
+    background-size: cover;
+    transform: rotate(45deg)
+    
+}
+.nextcard{
+    
+    margin-top: -50px;
+    margin-left: 600px;
 
+    background-image: url(../images/makeupback.jpg);
+}
+.card2:hover{
+    transform: translateY(-10px);
+}
+ 
+.col{
+    flex-basis: 50%;
+    color: white;
+}
+
+.row{
+    display:inline-flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.homesection{
+    font-size: 29px;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: black;
+    line-height: 40px;
+    text-align: justify;
+}
+.heading_line{
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 5px;
+}
+.homeimage{
+    width:500px;
+     height:600px;
+  padding-left: 10px;
+  
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.neon {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 10px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 20px #0ff,
+    0 0 20px #0ff;
+  }
   .card{
     position: absolute;
     width: 200px;
@@ -151,6 +224,19 @@ a.active,a:hover{
     
     
 }
+.footerimg{
+    width:0px;
+     height:0px; 
+     background-position:center ;
+     padding-left: 0%;
+     margin-top: 100px;
+     padding-bottom: 60px;
+     background-image: url(../images/forest.png);
+}
+.sections{
+    background: url(../images/grey.jpg);
+}
+
 .mencard{
     
    margin-top: 200px;
@@ -177,44 +263,99 @@ a.active,a:hover{
   .card:hover{
       transform: translateY(-10px);
   }
+@media screen and (max-width:300px) {
+    .banner{
+        width: 100%;
+        height: 20%;
+    }
+    
+}
+@media (max-width: 650px) {
+    .glow{
+        margin-left: 0%;
+        font-size: 3rem;
+        padding-top: 0%;
 
-  .neon {
-    color: #fff;
-    text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 10px #fff,
-    0 0 10px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 20px #0ff,
-    0 0 20px #0ff;
-  }
-  .card2{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    transition: transform 0.5s;
-    background-position: right;
-    background-size: cover;
-    transform: rotate(45deg)
-    
-    
+       
+    }   
 }
-.nextcard{
-    
-    margin-top: 170px;
-    margin-left: 600px;
+@media (max-width: 650px) {
+    .heading_line{
+        margin-left: 0%;
 
-    background-image: url(../images/makeupback.jpg);
+    }
 }
-.card2:hover{
-    transform: translateY(-10px);
+@media (max-width: 300px) {
+    .footerimg{
+        width: 0px;
+        height: 0px;
+       padding-top:0%;
+        margin-bottom: 0%;
+    }
 }
- 
+@media (max-width: 650px) {
+    .nextcard{
+        margin-left: 30%;
+       
+    }
+    .card2{
+        width: 100px;
+    height: 100px;
+    }
+}
+@media (max-width: 650px) {
+    .card{
+        
+        width: 80px;
+        height: 100px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        transition: transform 0.5s;
+        background-position: right;
+        background-size: cover; 
+        
+    }
+    .mencard{
+    
+        margin-left: 0%;
+  
+     }
+     
+       .womencard{
+        margin-left: 22%;
+   
+       }
+       .girlcard{
+        margin-left: 44%;
+       }
+       .boycard{
+        margin-left: 66%;
+       }
+      
+}
+
+
+@media (max-width: 650px) {
+    .homesection{
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 10%;
+        color: black;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .homeimage{
+        width:120px;
+        height:400px;
+      padding-left:2%;
+      padding-top: 0%;
+      display: inline-block;
+    }
+
+}
+
+
