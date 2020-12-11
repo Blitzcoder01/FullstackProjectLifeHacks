@@ -1,20 +1,121 @@
-html{
-    scroll-behavior: smooth;
+nav{
+    
+    height: 80px;
+    width: 100%;
+    text-decoration: transparent;
+    background: url(../../images/boybackground.jpg);
 }
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+label.logo{
+    color: floralwhite;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float: right ;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: floralwhite;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: lightcoral ;
+    transition: .5s;
+    border-radius: 10px;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: mintcream;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px){
+    lable.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+    @media (max-width:858px){
+        .checkbtn{
+            display: block;
+
+                }
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: transparent ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        
+        transition: all .5s;
+    
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: darkorange;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+
+}
+.banner{
+    width: 1500px;
+    height: 90vh;
+    text-align: center;
+    color: navy;
+   
+   max-width: 100%;
+   margin-top: 0rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+   background-size: 100% 100%;
+    background: url(../../images/boybackground.jpg);
+
 }
 .glow{
-    font-size: 100px;
+    
     
     letter-spacing: 8px;
-    margin-left: 30px;
-    padding-top: 170px;
-    font-size: 80px;
+    margin-left: 250px;
+    padding-top: 0px;
+    font-size: 6rem;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -30,20 +131,89 @@ html{
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
-  .menpng{
-    margin-right:90px;
-    margin-left: 900px;
-    margin-top: -800px;
-    padding-top: 60px;
-  }
+
   
-  .mencollection{
+.col{
+    flex-basis: 50%;
+    color: white;
+}
+
+.row{
+    display:inline-flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.homesection{
+    font-size: 29px;
+    margin-left: 70px;
+    margin-right: 2px;
+    color: black;
+    line-height: 40px;
+    text-align: justify;
+}
+.heading_line{
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 5px;
+}
+.homeimage{
+    width:500px;
+     height:600px;
+  padding-left: 10px;
+  
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 10px #fff,
+      0 0 10px rgb(255, 187, 0),
+      0 0 10px rgb(255, 187, 0),
+      0 0 20px rgb(255, 238, 0),
+      0 0 20px rgb(255, 238, 0),
+      0 0 20px rgb(255, 238, 0);
+  }
+  .neon2 {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 10px #fff,
+      0 0 10px rgb(255, 196, 0),
+      0 0 10px rgb(255, 196, 0),
+      0 0 20px rgb(255, 153, 0),
+      0 0 20px rgb(255, 153, 0),
+      0 0 20px rgb(255, 153, 0);
+  }
+  .intro{
+    text-align:justify;
+    color: black; 
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size:29px ;
+  }
+  .girlcollection{
     display: table;
       width: 100%;
-      height: auto; 
+      height: 5%; 
   }
   .collection{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
     display: table-row;
+    padding-top: 30%;
   }
 
   li {
@@ -57,25 +227,274 @@ html{
   }
 
   .frame-border3{
-    border:15px solid rgb(46, 76, 175); 
+    border:15px solid rgb(245, 248, 53); 
     margin-top: 30px;
     border-radius: 10px;
+    position: absolute;
+  top: 2100px;
+  left: 0%;
+  bottom: 20px;
+
+  width: 35%;
+  height:40%;
     }
     .frame-border4{
-      border:15px solid rgb(228, 16, 44); 
+      border:15px solid rgb(92, 50, 50); 
       margin-top: 30px;
       border-radius: 10px;
+      position: absolute;
+      top: 2100px;
+      left: 40%;
+     
+    
+      width: 35%;
+      height:40%;
       }
+
+      .frame-border3jeans{
+        border:15px solid rgb(92, 50, 50); 
+        margin-top: 30px;
+        border-radius: 10px;
+        position: absolute;
+      top: 3000px;
+      left: 0%;
+      
+    
+      width: 35%;
+      height:40%;
+        }
+        .frame-border4jeans{
+          border:15px solid rgb(245, 248, 53); 
+          margin-top: 30px;
+          border-radius: 10px;
+          position: absolute;
+          top: 3000px;
+          left: 40%;
+          
+        
+          width: 35%;
+          height:40%;
+          }
+          .frame-border3shirt{
+            border:15px solid rgb(245, 248, 53); 
+            margin-top: 30px;
+            border-radius: 10px;
+            position: absolute;
+          top: 3900px;
+          left: 0%;
+          
+        
+          width: 35%;
+          height:40%;
+            }
+            .frame-border4shirt{
+              border:15px solid rgb(92, 50, 50); 
+              margin-top: 30px;
+              border-radius: 10px;
+              position: absolute;
+              top: 3900px;
+              left: 40%;
+              
+            
+              width: 35%;
+              height:40%;
+              }
+              .frame-border3jacket{
+                border:15px solid rgb(92, 50, 50); 
+                margin-top: 30px;
+                border-radius: 10px;
+                position: absolute;
+              top: 4850px;
+              left: 0%;
+              
+            
+              width: 35%;
+              height:40%;
+                }
+                .frame-border4jacket{
+                  border:15px solid rgb(245, 248, 53); 
+                  margin-top: 30px;
+                  border-radius: 10px;
+                  position: absolute;
+                  top: 4850px;
+                  left: 40%;
+          
+                  width: 35%;
+                  height:40%;
+                  }
+                  
+.footerimg{
+    width:0px;
+     height:0px; 
+     background-position:center ;
+     padding-left: 0%;
+     margin-top: 400px;
+     padding-bottom: 100px;
+     background-image: url(../images/forest.png);
+}
+
+
+
+@media screen and (max-width:300px) {
+    .banner{
+        width: 100%;
+        height: 20%;
+    }
+    
+}
+@media (max-width: 650px) {
+    .glow{
+        margin-left: 0%;
+        font-size: 3rem;
+        padding-top: 0%;
+
+    }   
+}
+@media (max-width: 650px) {
+    .collection{
+        position: relative;
+        overflow: hidden;
+        width: 20%;
+        display: table-row;
+        padding-top: 0%;
+      }
+      iframe {
+        margin-left: 0%;
+       display: block;
+     }
    
-      .neon {
-        color: #fff;
-        text-shadow:
-          0 0 5px #fff,
-          0 0 10px #fff,
-          0 0 10px #fff,
-          0 0 10px rgb(255, 187, 0),
-          0 0 10px rgb(255, 187, 0),
-          0 0 20px rgb(255, 238, 0),
-          0 0 20px rgb(255, 238, 0),
-          0 0 20px rgb(255, 238, 0);
-      }
+     .frame-border3{
+       border:5px solid rgb(92, 50, 50); 
+       
+     padding-top: 0%;
+     left: 2%;
+    padding-bottom: 0%;
+   
+     width: 43%;
+     height:120px;
+       }
+       .frame-border4{
+         border:5px solid rgb(245, 248, 53); 
+         padding-top: 0%;
+     left: 50%;
+     padding-bottom: 0%;
+   
+     width: 43%;
+     height:120px;
+         }
+         .frame-border3jeans{
+            border:5px solid rgb(245, 248, 53); 
+            top: 3800px;
+     padding-top: 0%;
+     left: 2%;
+     bottom: 0%;
+   
+     width: 43%;
+     height:120px;
+            }
+            .frame-border4jeans{
+              border:5px solid rgb(92, 50, 50); 
+              padding-top: 0%;
+              left: 50%;
+              bottom: 0%;
+              top: 3800px;
+              width: 43%;
+              height:120px;
+              }
+              .frame-border3shirt{
+                border:5px solid rgb(92, 50, 50); 
+                top: 5400px;
+                padding-top: 0%;
+                left: 2%;
+                bottom: 0%;
+              
+                width: 43%;
+                height:120px;
+                }
+                .frame-border4shirt{
+                  border:5px solid rgb(245, 248, 53); 
+                  padding-top: 0%;
+                  left: 50%;
+                  bottom: 0%;
+                  top: 5400px;
+                  width: 43%;
+                  height:120px;
+                  }
+                  .frame-border3jacket{
+                    border:5px solid rgb(245, 248, 53); 
+                    top: 6900px;
+                    padding-top: 0%;
+                    left: 2%;
+                    bottom: 0%;
+                  
+                    width: 43%;
+                    height:120px;
+                    }
+                    .frame-border4jacket{
+                      border:5px solid rgb(92, 50, 50); 
+                      padding-top: 0%;
+                      left: 50%;
+                      bottom: 0%;
+                      top: 6900px;
+                      width: 43%;
+                      height:120px;
+                      }
+                     
+          
+      
+}
+@media (max-width: 650px) {
+    .heading_line{
+        margin-left: 0%;
+
+    }
+}
+@media (max-width: 650px) {
+    .intro{
+    text-align:justify;
+    color: black; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    line-height: 30px;
+    font-size: 12px;
+    
+    }
+}
+@media (max-width: 650px) {
+    .neon2{
+       margin-top: 0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .footerimg{
+        width: 0px;
+        height: 0px;
+       padding-top:0%;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+    .homesection{
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 1%;
+        color: black;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .homeimage{
+        width:120px;
+        height:600px;
+      padding-left:2%;
+      padding-top: 0%;
+      display: inline-block;
+    }
+
+}
+
