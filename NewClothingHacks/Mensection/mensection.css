@@ -131,33 +131,7 @@ a.active,a:hover{
     }
   }
 
-  .card2{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    transition: transform 0.5s;
-    background-position: right;
-    background-size: cover;
-    transform: rotate(45deg)
-    
-}
-.nextcard{
-    
-    margin-top: -50px;
-    margin-left: 600px;
-
-    background-image: url(../images/makeupback.jpg);
-}
-.card2:hover{
-    transform: translateY(-10px);
-}
- 
+  
 .col{
     flex-basis: 50%;
     color: white;
@@ -277,7 +251,7 @@ a.active,a:hover{
       }
 
       .frame-border3jeans{
-        border:15px solid rgb(16, 228, 210); 
+        border:15px solid rgb(228, 16, 182); 
         margin-top: 30px;
         border-radius: 10px;
         position: absolute;
@@ -289,7 +263,7 @@ a.active,a:hover{
       height:40%;
         }
         .frame-border4jeans{
-          border:15px solid rgb(228, 16, 182); 
+          border:15px solid rgb(16, 228, 210); 
           margin-top: 30px;
           border-radius: 10px;
           position: absolute;
@@ -325,7 +299,7 @@ a.active,a:hover{
               height:40%;
               }
               .frame-border3jacket{
-                border:15px solid rgb(16, 228, 210); 
+                border:15px solid rgb(228, 16, 182); 
                 margin-top: 30px;
                 border-radius: 10px;
                 position: absolute;
@@ -337,7 +311,7 @@ a.active,a:hover{
               height:40%;
                 }
                 .frame-border4jacket{
-                  border:15px solid rgb(228, 16, 182); 
+                  border:15px solid rgb(16, 228, 210); 
                   margin-top: 30px;
                   border-radius: 10px;
                   position: absolute;
@@ -431,7 +405,7 @@ a.active,a:hover{
      height:120px;
          }
          .frame-border3jeans{
-            border:5px solid rgb(16, 228, 210); 
+            border:5px solid rgb(228, 16, 182); 
             top: 3600px;
      padding-top: 0%;
      left: 2%;
@@ -441,7 +415,7 @@ a.active,a:hover{
      height:120px;
             }
             .frame-border4jeans{
-              border:5px solid rgb(228, 16, 182); 
+              border:5px solid rgb(16, 228, 210); 
               padding-top: 0%;
               left: 50%;
               bottom: 0%;
@@ -469,7 +443,7 @@ a.active,a:hover{
                   height:120px;
                   }
                   .frame-border3jacket{
-                    border:5px solid rgb(16, 228, 210); 
+                    border:5px solid rgb(228, 16, 182); 
                     top: 6800px;
                     padding-top: 0%;
                     left: 2%;
@@ -479,7 +453,7 @@ a.active,a:hover{
                     height:120px;
                     }
                     .frame-border4jacket{
-                      border:5px solid rgb(228, 16, 182); 
+                      border:5px solid rgb(16, 228, 210); 
                       padding-top: 0%;
                       left: 50%;
                       bottom: 0%;
@@ -563,6 +537,5 @@ a.active,a:hover{
     }
 
 }
-
 
 
